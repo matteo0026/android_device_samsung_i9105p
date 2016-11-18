@@ -7,9 +7,6 @@ $(call inherit-product, device/samsung/i9105p/i9105p.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_i9105p
 PRODUCT_DEVICE := i9105p
